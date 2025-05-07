@@ -39,8 +39,8 @@ importers:
         specifier: ^4.3.2
         version: 4.3.2(react@19.1.0)(zod@3.24.2)
       autoevals:
-        specifier: ^0.0.125
-        version: 0.0.125
+        specifier: ^0.0.127
+        version: 0.0.127
       braintrust:
         specifier: ^0.0.195
         version: 0.0.195(openai@4.47.1)(react@19.1.0)(sswr@2.2.0(svelte@5.23.0))(svelte@5.23.0)(vue@3.5.13(typescript@5.8.3))(zod@3.24.2)
@@ -251,6 +251,9 @@ packages:
 
   '@braintrust/core@0.0.83':
     resolution: {integrity: sha512-HDxtI3eYTJO7sN36jVrNDDPAaewldrnsfv99p5TKFrH5OUNX7x5tyqlPX+wQXyjn7PSvyNGpsqK8S/dnrqKocQ==}
+
+  '@braintrust/core@0.0.84':
+    resolution: {integrity: sha512-LByhkZ6ueKk5wFo1kuWwOjIw21mmkHNzOX8NRbPMISbRId26H8mWbShGa6UtM7+mS0KrIgQhy13vpa0tt69Gvg==}
 
   '@emnapi/core@1.4.0':
     resolution: {integrity: sha512-H+N/FqT07NmLmt6OFFtDfwe8PNygprzBikrEMyQfgqSmT0vzE515Pz7R8izwB9q/zsH/MA64AKoul3sA6/CzVg==}
@@ -1458,8 +1461,8 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
-  autoevals@0.0.125:
-    resolution: {integrity: sha512-WEyhw1KXGVZtw3DBOTrrTZcJJwDVOxNLXN4yBWNULzrjUGYVpn27p0mfaY2kQWoYnuPISqtdxDcUivTh3VlJoQ==}
+  autoevals@0.0.127:
+    resolution: {integrity: sha512-GSlRQi/jPr5sT5TRysvuwsjfAKdUbApw57Lri9iiQjuCVFabQD4ryhozdjNlGrf/sPnnVOm8vUGw04HuBPAn+w==}
 
   available-typed-arrays@1.0.7:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
@@ -2618,6 +2621,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
@@ -3386,6 +3390,12 @@ snapshots:
       '@babel/helper-validator-identifier': 7.25.9
 
   '@braintrust/core@0.0.83':
+    dependencies:
+      '@asteasolutions/zod-to-openapi': 6.4.0(zod@3.24.2)
+      uuid: 9.0.1
+      zod: 3.24.2
+
+  '@braintrust/core@0.0.84':
     dependencies:
       '@asteasolutions/zod-to-openapi': 6.4.0(zod@3.24.2)
       uuid: 9.0.1
@@ -4475,9 +4485,9 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  autoevals@0.0.125:
+  autoevals@0.0.127:
     dependencies:
-      '@braintrust/core': 0.0.83
+      '@braintrust/core': 0.0.84
       ajv: 8.17.1
       compute-cosine-similarity: 1.1.0
       js-levenshtein: 1.1.6
