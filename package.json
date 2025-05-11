@@ -20,7 +20,7 @@
     "@vercel/otel": "^1.10.4",
     "ai": "^4.3.2",
     "autoevals": "^0.0.127",
-    "braintrust": "^0.0.195",
+    "braintrust": "^0.0.202",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "fast-deep-equal": "^3.1.3",
