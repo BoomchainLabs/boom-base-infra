@@ -43,9 +43,7 @@ pnpm install
 
 npm i -g vercel
 
-Link your local project to your Vercel project:
-
-vercel link
+Link your local project to your Vercel project https://boom-base-infra.vercel.app
 
 Pull the required environment variables:
 
