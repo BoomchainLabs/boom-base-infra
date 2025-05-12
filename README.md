@@ -28,3 +28,46 @@ Running Locally
 Follow these steps to run the project locally on your machine:
 
 1. Clone the Repository
+git clone https://github.com/BoomchainLabs/boom-base-infra.git
+cd boom-base-infra
+
+2. Install Dependencies:
+
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+3. Install Vercel CLI:
+
+npm i -g vercel
+
+Link your local project to your Vercel project:
+
+vercel link
+
+Pull the required environment variables:
+
+vercel env pull
+
+4. Run the Development Server:
+
+npm run dev
+
+5. Open in Browser:Navigate to http://localhost:3000 to access your application.
+
+
+Authors
+
+This repository is maintained by the BoomchainLabs team. Contributions are welcome! Feel free to open issues or submit pull requests to enhance functionality or fix bugs.
+
+
+License
+
+This project is open-source and licensed under the MIT License.
+
+
+If you need additional sections or further customization, let me know!
+
+
