@@ -39,8 +39,8 @@ importers:
         specifier: ^4.3.2
         version: 4.3.15(react@19.1.0)(zod@3.24.4)
       autoevals:
-        specifier: ^0.0.127
-        version: 0.0.127
+        specifier: ^0.0.129
+        version: 0.0.129
       braintrust:
         specifier: ^0.0.202
         version: 0.0.202(openai@4.47.1)(react@19.1.0)(sswr@2.2.0(svelte@5.23.0))(svelte@5.23.0)(vue@3.5.13(typescript@5.8.3))(zod@3.24.4)
@@ -249,11 +249,11 @@ packages:
     resolution: {integrity: sha512-+EzkxvLNfiUeKMgy/3luqfsCWFRXLb7U6wNQTk60tovuckwB15B191tJWvpp4HjiQWdJkCxO3Wbvc6jlk3Xb2Q==}
     engines: {node: '>=6.9.0'}
 
-  '@braintrust/core@0.0.84':
-    resolution: {integrity: sha512-LByhkZ6ueKk5wFo1kuWwOjIw21mmkHNzOX8NRbPMISbRId26H8mWbShGa6UtM7+mS0KrIgQhy13vpa0tt69Gvg==}
-
   '@braintrust/core@0.0.86':
     resolution: {integrity: sha512-kysTnKjizQl4EQGbLDK91Ao8UKMG111NgB+Stu88df9X2KHW5UpI63rShiucaVQt168fvr3UfRJbzfZ/t068bw==}
+
+  '@braintrust/core@0.0.87':
+    resolution: {integrity: sha512-yKo+2McKBcluVUq+5qoYI7QfGvqZ7c0ftTOmnRSToBR2RqGyHkClnnQZ3+M8Guuk9NEKJu92UMTTaR9AonIvvA==}
 
   '@emnapi/core@1.4.0':
     resolution: {integrity: sha512-H+N/FqT07NmLmt6OFFtDfwe8PNygprzBikrEMyQfgqSmT0vzE515Pz7R8izwB9q/zsH/MA64AKoul3sA6/CzVg==}
@@ -1502,8 +1502,8 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
-  autoevals@0.0.127:
-    resolution: {integrity: sha512-GSlRQi/jPr5sT5TRysvuwsjfAKdUbApw57Lri9iiQjuCVFabQD4ryhozdjNlGrf/sPnnVOm8vUGw04HuBPAn+w==}
+  autoevals@0.0.129:
+    resolution: {integrity: sha512-LhrPnh/3dcOdlqLeEXfaUGwwGMYggO1rsYb4sc8N5H7wX+5IYd14N3xXDQlNqlny9DJRkzvd/lvSDhBvrmA0rw==}
 
   available-typed-arrays@1.0.7:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
@@ -3745,13 +3745,13 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@braintrust/core@0.0.84':
+  '@braintrust/core@0.0.86':
     dependencies:
       '@asteasolutions/zod-to-openapi': 6.4.0(zod@3.24.4)
       uuid: 9.0.1
       zod: 3.24.4
 
-  '@braintrust/core@0.0.86':
+  '@braintrust/core@0.0.87':
     dependencies:
       '@asteasolutions/zod-to-openapi': 6.4.0(zod@3.24.4)
       uuid: 9.0.1
@@ -4889,9 +4889,9 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  autoevals@0.0.127:
+  autoevals@0.0.129:
     dependencies:
-      '@braintrust/core': 0.0.84
+      '@braintrust/core': 0.0.87
       ajv: 8.17.1
       compute-cosine-similarity: 1.1.0
       js-levenshtein: 1.1.6
