@@ -11,9 +11,9 @@
   "dependencies": {
     "@ai-sdk/deepinfra": "^0.2.7",
     "@ai-sdk/react": "^1.2.6",
-    "@opentelemetry/api-logs": "^0.200.0",
-    "@opentelemetry/instrumentation": "^0.200.0",
-    "@opentelemetry/sdk-logs": "^0.200.0",
+    "@opentelemetry/api-logs": "^0.201.0",
+    "@opentelemetry/instrumentation": "^0.201.0",
+    "@opentelemetry/sdk-logs": "^0.201.0",
     "@radix-ui/react-label": "^2.1.2",
     "@radix-ui/react-select": "^2.1.6",
     "@radix-ui/react-slot": "^1.1.2",
