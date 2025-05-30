@@ -42,8 +42,8 @@ importers:
         specifier: ^0.0.129
         version: 0.0.129
       braintrust:
-        specifier: ^0.0.202
-        version: 0.0.202(openai@4.47.1)(react@19.1.0)(sswr@2.2.0(svelte@5.23.0))(svelte@5.23.0)(vue@3.5.13(typescript@5.8.3))(zod@3.25.42)
+        specifier: ^0.0.205
+        version: 0.0.205(openai@4.47.1)(react@19.1.0)(sswr@2.2.0(svelte@5.23.0))(svelte@5.23.0)(vue@3.5.13(typescript@5.8.3))(zod@3.25.42)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -249,11 +249,11 @@ packages:
     resolution: {integrity: sha512-Y1GkI4ktrtvmawoSq+4FCVHNryea6uR+qUQy0AGxLSsjCX0nVmkYQMBLHDkXZuo5hGx7eYdnIaslsdBFm7zbUw==}
     engines: {node: '>=6.9.0'}
 
-  '@braintrust/core@0.0.86':
-    resolution: {integrity: sha512-kysTnKjizQl4EQGbLDK91Ao8UKMG111NgB+Stu88df9X2KHW5UpI63rShiucaVQt168fvr3UfRJbzfZ/t068bw==}
-
   '@braintrust/core@0.0.87':
     resolution: {integrity: sha512-yKo+2McKBcluVUq+5qoYI7QfGvqZ7c0ftTOmnRSToBR2RqGyHkClnnQZ3+M8Guuk9NEKJu92UMTTaR9AonIvvA==}
+
+  '@braintrust/core@0.0.88':
+    resolution: {integrity: sha512-asVr//nyiXvnagf2Av+k3Ggv2UFiygwvlzreI8rS87+9DYRlw0ofy13gSxr7a0ycd0yfRomdVSEpDRlEzpQm5w==}
 
   '@emnapi/core@1.4.0':
     resolution: {integrity: sha512-H+N/FqT07NmLmt6OFFtDfwe8PNygprzBikrEMyQfgqSmT0vzE515Pz7R8izwB9q/zsH/MA64AKoul3sA6/CzVg==}
@@ -1532,8 +1532,8 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  braintrust@0.0.202:
-    resolution: {integrity: sha512-6W1ID4lv5vhaCId2a1Ry9zAkU8EsNMd/Aq78AahCR81szPTr1SUCvGHldwc6dsAP/3bUPox1piW7joCkZPmJNQ==}
+  braintrust@0.0.205:
+    resolution: {integrity: sha512-bQdFLj24BmdYqcZLSIx6nU4bkwIiEvlF5eJREYwxvdNpO72DyTmDpzAq3YNGeGQjtxrKhowVuyj1LfBpjsbc6Q==}
     hasBin: true
     peerDependencies:
       zod: ^3.0.0
@@ -3634,13 +3634,13 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@braintrust/core@0.0.86':
+  '@braintrust/core@0.0.87':
     dependencies:
       '@asteasolutions/zod-to-openapi': 6.4.0(zod@3.25.42)
       uuid: 9.0.1
       zod: 3.25.42
 
-  '@braintrust/core@0.0.87':
+  '@braintrust/core@0.0.88':
     dependencies:
       '@asteasolutions/zod-to-openapi': 6.4.0(zod@3.25.42)
       uuid: 9.0.1
@@ -4817,10 +4817,10 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  braintrust@0.0.202(openai@4.47.1)(react@19.1.0)(sswr@2.2.0(svelte@5.23.0))(svelte@5.23.0)(vue@3.5.13(typescript@5.8.3))(zod@3.25.42):
+  braintrust@0.0.205(openai@4.47.1)(react@19.1.0)(sswr@2.2.0(svelte@5.23.0))(svelte@5.23.0)(vue@3.5.13(typescript@5.8.3))(zod@3.25.42):
     dependencies:
       '@ai-sdk/provider': 1.1.3
-      '@braintrust/core': 0.0.86
+      '@braintrust/core': 0.0.88
       '@next/env': 14.2.26
       '@vercel/functions': 1.6.0
       ai: 3.4.33(openai@4.47.1)(react@19.1.0)(sswr@2.2.0(svelte@5.23.0))(svelte@5.23.0)(vue@3.5.13(typescript@5.8.3))(zod@3.25.42)
