@@ -39,8 +39,8 @@ importers:
         specifier: ^4.3.2
         version: 4.3.16(react@19.1.0)(zod@3.25.67)
       autoevals:
-        specifier: ^0.0.129
-        version: 0.0.129
+        specifier: ^0.0.130
+        version: 0.0.130
       braintrust:
         specifier: ^0.0.202
         version: 0.0.202(openai@4.47.1)(react@19.1.0)(sswr@2.2.0(svelte@5.23.0))(svelte@5.23.0)(vue@3.5.13(typescript@5.8.3))(zod@3.25.67)
@@ -251,9 +251,6 @@ packages:
 
   '@braintrust/core@0.0.86':
     resolution: {integrity: sha512-kysTnKjizQl4EQGbLDK91Ao8UKMG111NgB+Stu88df9X2KHW5UpI63rShiucaVQt168fvr3UfRJbzfZ/t068bw==}
-
-  '@braintrust/core@0.0.87':
-    resolution: {integrity: sha512-yKo+2McKBcluVUq+5qoYI7QfGvqZ7c0ftTOmnRSToBR2RqGyHkClnnQZ3+M8Guuk9NEKJu92UMTTaR9AonIvvA==}
 
   '@emnapi/core@1.4.0':
     resolution: {integrity: sha512-H+N/FqT07NmLmt6OFFtDfwe8PNygprzBikrEMyQfgqSmT0vzE515Pz7R8izwB9q/zsH/MA64AKoul3sA6/CzVg==}
@@ -1496,8 +1493,8 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
-  autoevals@0.0.129:
-    resolution: {integrity: sha512-LhrPnh/3dcOdlqLeEXfaUGwwGMYggO1rsYb4sc8N5H7wX+5IYd14N3xXDQlNqlny9DJRkzvd/lvSDhBvrmA0rw==}
+  autoevals@0.0.130:
+    resolution: {integrity: sha512-JS0T/YCEH13AAOGiWWGJDkIPP8LsDmRBYr3EazTukHxvd0nidOW7fGj0qVPFx2bARrSNO9AfCR6xoTP/5m3Bmw==}
 
   available-typed-arrays@1.0.7:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
@@ -3639,12 +3636,6 @@ snapshots:
       uuid: 9.0.1
       zod: 3.25.67
 
-  '@braintrust/core@0.0.87':
-    dependencies:
-      '@asteasolutions/zod-to-openapi': 6.4.0(zod@3.25.67)
-      uuid: 9.0.1
-      zod: 3.25.67
-
   '@emnapi/core@1.4.0':
     dependencies:
       '@emnapi/wasi-threads': 1.0.1
@@ -4755,9 +4746,8 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  autoevals@0.0.129:
+  autoevals@0.0.130:
     dependencies:
-      '@braintrust/core': 0.0.87
       ajv: 8.17.1
       compute-cosine-similarity: 1.1.0
       js-levenshtein: 1.1.6

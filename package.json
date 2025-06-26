@@ -19,7 +19,7 @@
     "@radix-ui/react-slot": "^1.1.2",
     "@vercel/otel": "^1.10.4",
     "ai": "^4.3.2",
-    "autoevals": "^0.0.129",
+    "autoevals": "^0.0.130",
     "braintrust": "^0.0.202",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
