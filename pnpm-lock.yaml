@@ -58,7 +58,7 @@ importers:
         version: 0.525.0(react@19.1.0)
       motion:
         specifier: ^12.6.3
-        version: 12.19.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 12.23.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next:
         specifier: 15.3.4
         version: 15.3.4(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -240,8 +240,8 @@ packages:
     resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.28.0':
-    resolution: {integrity: sha512-jVZGvOxOuNSsuQuLRTh13nU0AogFlw32w/MT+LV6D3sP5WdbW61E77RnkbaO2dUvmPAYrBDJXGn5gGS6tH4j8g==}
+  '@babel/parser@7.28.3':
+    resolution: {integrity: sha512-7+Ey1mAgYqFAx2h0RuoxcQT5+MlG3GTV0TQrgr7/ZliKsm/MNDxVVutlWaziMq7wJNAz8MTqz55XLpWvva6StA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -616,6 +616,9 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.5.4':
     resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
+
+  '@jridgewell/sourcemap-codec@1.5.5':
+    resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
@@ -2082,8 +2085,8 @@ packages:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
 
-  framer-motion@12.19.1:
-    resolution: {integrity: sha512-nq9hwWAEKf4gzprbOZzKugLV5OVKF7zrNDY6UOVu+4D3ZgIkg8L9Jy6AMrpBM06fhbKJ6LEG6UY5+t7Eq6wNlg==}
+  framer-motion@12.23.12:
+    resolution: {integrity: sha512-6e78rdVtnBvlEVgu6eFEAgG9v3wLnYEboM8I5O5EXvfKC8gxGQB8wXJdhkMy10iVcn05jl6CNw7/HTsTCfwcWg==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -2522,6 +2525,9 @@ packages:
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
+  magic-string@0.30.18:
+    resolution: {integrity: sha512-yi8swmWbO17qHhwIBNeeZxTceJMeBvWJaId6dyvTSOwTipqeHhMhOrz6513r1sOKnpvQ7zkhlG8tPrpilwTxHQ==}
+
   markdown-table@3.0.4:
     resolution: {integrity: sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==}
 
@@ -2734,14 +2740,14 @@ packages:
   module-details-from-path@1.0.3:
     resolution: {integrity: sha512-ySViT69/76t8VhE1xXHK6Ch4NcDd26gx0MzKXLO+F7NOtnqH68d9zF94nT8ZWSxXh8ELOERsnJO/sWt1xZYw5A==}
 
-  motion-dom@12.19.0:
-    resolution: {integrity: sha512-m96uqq8VbwxFLU0mtmlsIVe8NGGSdpBvBSHbnnOJQxniPaabvVdGgxSamhuDwBsRhwX7xPxdICgVJlOpzn/5bw==}
+  motion-dom@12.23.12:
+    resolution: {integrity: sha512-RcR4fvMCTESQBD/uKQe49D5RUeDOokkGRmz4ceaJKDBgHYtZtntC/s2vLvY38gqGaytinij/yi3hMcWVcEF5Kw==}
 
-  motion-utils@12.19.0:
-    resolution: {integrity: sha512-BuFTHINYmV07pdWs6lj6aI63vr2N4dg0vR+td0rtrdpWOhBzIkEklZyLcvKBoEtwSqx8Jg06vUB5RS0xDiUybw==}
+  motion-utils@12.23.6:
+    resolution: {integrity: sha512-eAWoPgr4eFEOFfg2WjIsMoqJTW6Z8MTUCgn/GZ3VRpClWBdnbjryiA3ZSNLyxCTmCQx4RmYX6jX1iWHbenUPNQ==}
 
-  motion@12.19.1:
-    resolution: {integrity: sha512-OhoHWrht+zwDPccr2wGltJdwgz2elFBBt/sLei2g0hwICvy2hOBFUkA4Ylup3VnDgz+vUtecf694EV7bJK4XjA==}
+  motion@12.23.12:
+    resolution: {integrity: sha512-8jCD8uW5GD1csOoqh1WhH1A6j5APHVE15nuBkFeRiMzYBdRwyAHmSP/oXSuW0WJPZRXTFdBoG4hY9TFWNhhwng==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -3638,7 +3644,7 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.27.1': {}
 
-  '@babel/parser@7.28.0':
+  '@babel/parser@7.28.3':
     dependencies:
       '@babel/types': 7.28.2
 
@@ -3915,6 +3921,8 @@ snapshots:
   '@jridgewell/set-array@1.2.1': {}
 
   '@jridgewell/sourcemap-codec@1.5.4': {}
+
+  '@jridgewell/sourcemap-codec@1.5.5': {}
 
   '@jridgewell/trace-mapping@0.3.25':
     dependencies:
@@ -4552,7 +4560,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.13':
     dependencies:
-      '@babel/parser': 7.28.0
+      '@babel/parser': 7.28.3
       '@vue/shared': 3.5.13
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -4565,13 +4573,13 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.13':
     dependencies:
-      '@babel/parser': 7.28.0
+      '@babel/parser': 7.28.3
       '@vue/compiler-core': 3.5.13
       '@vue/compiler-dom': 3.5.13
       '@vue/compiler-ssr': 3.5.13
       '@vue/shared': 3.5.13
       estree-walker: 2.0.2
-      magic-string: 0.30.17
+      magic-string: 0.30.18
       postcss: 8.5.6
       source-map-js: 1.2.1
 
@@ -5427,7 +5435,7 @@ snapshots:
 
   esrap@1.4.9:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.4
+      '@jridgewell/sourcemap-codec': 1.5.5
 
   esrecurse@4.3.0:
     dependencies:
@@ -5572,10 +5580,10 @@ snapshots:
 
   forwarded@0.2.0: {}
 
-  framer-motion@12.19.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  framer-motion@12.23.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      motion-dom: 12.19.0
-      motion-utils: 12.19.0
+      motion-dom: 12.23.12
+      motion-utils: 12.23.6
       tslib: 2.8.1
     optionalDependencies:
       react: 19.1.0
@@ -6013,6 +6021,10 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.4
 
+  magic-string@0.30.18:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+
   markdown-table@3.0.4: {}
 
   math-intrinsics@1.1.0: {}
@@ -6432,15 +6444,15 @@ snapshots:
 
   module-details-from-path@1.0.3: {}
 
-  motion-dom@12.19.0:
+  motion-dom@12.23.12:
     dependencies:
-      motion-utils: 12.19.0
+      motion-utils: 12.23.6
 
-  motion-utils@12.19.0: {}
+  motion-utils@12.23.6: {}
 
-  motion@12.19.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  motion@12.23.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      framer-motion: 12.19.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      framer-motion: 12.23.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       tslib: 2.8.1
     optionalDependencies:
       react: 19.1.0
@@ -7071,7 +7083,7 @@ snapshots:
   svelte@5.23.0:
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@jridgewell/sourcemap-codec': 1.5.4
+      '@jridgewell/sourcemap-codec': 1.5.5
       '@sveltejs/acorn-typescript': 1.0.5(acorn@8.15.0)
       '@types/estree': 1.0.8
       acorn: 8.15.0
@@ -7082,7 +7094,7 @@ snapshots:
       esrap: 1.4.9
       is-reference: 3.0.3
       locate-character: 3.0.0
-      magic-string: 0.30.17
+      magic-string: 0.30.18
       zimmerframe: 1.1.2
 
   swr@2.3.3(react@19.1.0):
